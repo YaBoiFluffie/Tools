@@ -1,120 +1,104 @@
 #!/bin/bash
-cd /opt
-mkdir Tools && cd Tools
-mkdir "Information Gathering" && cd "Information Gathering"
-git clone --recursive https://github.com/Gameye98/AstraNmap
-git clone --recursive https://github.com/UndeadSec/EvilURL
-git clone --recursive https://github.com/ciku370/OSIF
-git clone --recursive https://github.com/Cvar1984/Easymap
-git clone --recursive https://github.com/Gameye98/AstraNmap
-git clone --recursive https://github.com/evait-security/weeman
-git clone --recursive https://github.com/exlinee/MaxSubdoFinder
-git clone --recursive https://github.com/jofpin/trape
-git clone --recursive https://github.com/Tuhinshubhra/RED_HAWK
-git clone --recursive https://github.com/Lulz3xploit/LittleBrother
-git clone --recursive https://github.com/thewhiteh4t/seeker
-git clone --recursive https://github.com/s0md3v/ReconDog
-git clone --recursive https://github.com/bibortone/D-Tech
-git clone --recursive https://github.com/mishakorzik/IpHack
-git clone --recursive https://github.com/sullo/nikto
-mkdir ismtp && cd ismtp
-wget https://raw.githubusercontent.com/crunchsec/ismtp/master/ismtp.py
-cd /opt/Tools
-mkdir Exploitation && cd Exploitation
-git clone --recursive https://www.github.com/threat9/routersploit
-git clone --recursive https://github.com/commixproject/commix
-git clone --recursive https://github.com/kuburan/txtool
-git clone --recursive https://github.com/Moham3dRiahi/XAttacker
-git clone --recursive https://github.com/karjok/fim
-cd /opt/Tools
-mkdir "Sniffing & Spoofing" && cd "Sniffing & Spoofing"
-git clone --recursive https://github.com/d4az/hack-gmail
-git clone --recursive https://github.com/4w4k3/KnockMail
-git clone --recursive https://github.com/thewhiteh4t/pwnedOrNot
-git clone --recursive https://github.com/Curioo/emailpyspam
-git clone --recursive https://github.com/mishakorzik/Gmail-Hack
-git clone --recursive https://github.com/mishakorzik/Email-Spammer
-cd /opt/Tools
-mkdir "Web Attack" && cd "Web Attack"
-git clone --recursive https://github.com/mishakorzik/AdminHack
-git clone --recursive https://github.com/ebrandel/takeover
-git clone --recursive https://github.com/UltimateHackers/Blazy
-git clone --recursive https://github.com/sqlmapproject/sqlmap
-git clone --recursive https://github.com/websploit/websploit
-git clone --recursive https://github.com/LOoLzeC/SH33LL
-git clone --recursive https://github.com/s0md3v/sqlmate
-git clone --recursive https://github.com/mishakorzik/py-ddoser
-git clone --recursive https://github.com/mishakorzik/Ultra-DDos
-git clone --recursive https://github.com/urbanadventurer/WhatWeb
-git clone --recursive https://github.com/xmendez/wfuzz
-cd /opt/Tools
-mkdir "Cam Hacking" && cd "Cam Hacking"
-git clone --recursive https://github.com/AngelSecurityTeam/Cam-Hackers
-git clone --recursive https://github.com/noob-hackers/grabcam
-git clone --recursive https://github.com/Devil-Tigers/CamHack
-cd /opt/Tools
-mkdir "RATs" && cd "RATs"
-git clone --recursive https://github.com/knassar702/pyshell
-git clone --recursive https://github.com/kinghacker0/WishFish
-cd /opt/Tools
-mkdir "SQL Injection" && cd "SQL Injection"
-git clone --recursive https://github.com/UndeadSec/Debinject
-git clone --recursive https://github.com/Terror696/Vitus2.0
-git clone --recursive https://github.com/mishakorzik/Infect
-cd /opt/Tools
-mkdir "Social Media" && cd "Social Media"
-git clone --recursive https://github.com/evildevill/instahack
-git clone --recursive https://github.com/IAmBlackHacker/Facebook-BruteForce
-git clone --recursive https://github.com/sherlock-project/sherlock
-git clone --recursive https://github.com/ALBINPRAVEEN/finduser
-git clone --recursive https://github.com/mishakorzik/UserFinder
-cd /opt/Tools
-mkdir "SMS" && cd "SMS"
-git clone --recursive https://github.com/3UMOBKA/SMS-Bomber-300-Free
-git clone --recursive https://github.com/8hakan8/AresBomb
-git clone --recursive https://github.com/HACK3RY2J/Anon-SMS
-git clone --recursive https://github.com/FSystem88/spymer
-git clone --recursive https://github.com/TheSpeedX/TBomb
-git clone --recursive https://github.com/Edwardboytv/duplo-bomber
-git clone --recursive https://github.com/Hackeralok119/Anonymoussms
-cd /opt/Tools
-mkdir "Vulnerability Analysis" && cd "Vulnerability Analysis"
-git clone --recursive https://github.com/floriankunushevci/rang3r
-git clone --recursive https://github.com/TechnicalMujeeb/TM-scanner
-git clone --recursive https://github.com/Gameye98/AstraNmap
-cd /opt/Tools
-mkdir "DarkSearch" && cd "DarkSearch"
-git clone --recursive https://github.com/josh0xA/darkdump
-cd /opt/Tools
-mkdir "Phishing" && cd "Phishing"
-git clone --recursive https://github.com/htr-tech/zphisher
-git clone --recursive https://github.com/AbirHasan2005/ShellPhish
-git clone --recursive https://github.com/hangetzzu/saycheese
-git clone --recursive https://github.com/mishakorzik/Mask-Phish.Termux
-git clone --recursive https://github.com/thewhiteh4t/seeker
-git clone --recursive https://github.com/DeepSociety/AIOPhish
-git clone --recursive https://github.com/Viralmaniar/I-See-You.git
-git clone --recursive https://github.com/khairil0593/HiddenEye-Legacy
-git clone --recursive https://github.com/8L4NK/blackeye
-git clone --recursive https://github.com/Nishant2009/NPhish
-cd /opt/Tools
-mkdir "Hash Cracking" && cd "Hash Cracking"
-git clone --recursive https://github.com/ciku370/hasher
-git clone --recursive https://github.com/thamahaxor/hasherdoid
-git clone --recursive https://github.com/ciku370/hash-generator
-git clone --recursive https://github.com/s0md3v/Hash-Buster
-cd /opt/Tools
-mkdir "Wordlists" && cd "Wordlists"
-git clone --recursive https://github.com/Keshav2136/wlcreator
-git clone --recursive https://github.com/UndeadSec/GoblinWordGenerator
-git clone --recursive https://github.com/Viralmaniar/SMWYG-Show-Me-What-You-Got
-cd /opt/Tools
-mkdir "XSS" && cd "XSS"
-git clone --recursive https://github.com/menkrep1337/XSSCon
-git clone --recursive https://github.com/Ekultek/XanXSS
-git clone --recursive https://github.com/s0md3v/XSStrike
-cd /opt/Tools
-mkdir "Other Stuff" && cd "Other Stuff"
-git clone --recursive https://github.com/deadbits/Intersect-2.5
-git clone --recursive https://github.com/mishakorzik/Free-Proxy
-cd /opt/Tools
+cd
+sudo mkdir /opt/"Tools"
+sudo chown $USER /opt/Tools
+ln -s /home/$USER/Tools
+mkdir /opt/Tools/"Information Gathering"
+git clone --recursive https://github.com/Gameye98/AstraNmap  /opt/Tools/"Information Gathering"/astranmap
+git clone --recursive https://github.com/UndeadSec/EvilURL /opt/Tools/"Information Gathering"/evilurl
+git clone --recursive https://github.com/ciku370/OSIF /opt/Tools/"Information Gathering"/osif
+git clone --recursive https://github.com/Cvar1984/Easymap /opt/Tools/"Information Gathering"/easymap
+git clone --recursive https://github.com/evait-security/weeman /opt/Tools/"Information Gathering"/weeman
+git clone --recursive https://github.com/exlinee/MaxSubdoFinder /opt/Tools/"Information Gathering"/maxsubdofinder
+git clone --recursive https://github.com/jofpin/trape /opt/Tools/"Information Gathering"/trape
+git clone --recursive https://github.com/Tuhinshubhra/RED_HAWK /opt/Tools/"Information Gathering"/red_hawk
+git clone --recursive https://github.com/Lulz3xploit/LittleBrother /opt/Tools/"Information Gathering"/littlebrother
+git clone --recursive https://github.com/thewhiteh4t/seeker /opt/Tools/"Information Gathering"/seeker
+git clone --recursive https://github.com/s0md3v/ReconDog /opt/Tools/"Information Gathering"/recondog
+git clone --recursive https://github.com/bibortone/D-Tech /opt/Tools/"Information Gathering"/d-tech
+git clone --recursive https://github.com/mishakorzik/IpHack /opt/Tools/"Information Gathering"/iphack
+git clone --recursive https://github.com/sullo/nikto /opt/Tools/"Information Gathering"/nikto
+mkdir /opt/Tools/"Information Gathering"/ismtp && cd /opt/Tools/"Information Gathering"/ismtp && wget https://raw.githubusercontent.com/crunchsec/ismtp/master/ismtp.py && cd
+mkdir /opt/Tools/Exploitation
+git clone --recursive https://www.github.com/threat9/routersploit /opt/Tools/Exploitation/routersploit
+git clone --recursive https://github.com/commixproject/commix /opt/Tools/Exploitation/commix
+git clone --recursive https://github.com/kuburan/txtool /opt/Tools/Exploitation/txtool
+git clone --recursive https://github.com/Moham3dRiahi/XAttacker /opt/Tools/Exploitation/xattacker
+git clone --recursive https://github.com/karjok/fim /opt/Tools/Exploitation/fim
+mkdir /opt/Tools/"Sniffing & Spoofing"
+git clone --recursive https://github.com/d4az/hack-gmail /opt/Tools/"Sniffing & Spoofing"/hack-gmail
+git clone --recursive https://github.com/4w4k3/KnockMail /opt/Tools/"Sniffing & Spoofing"/knockmail
+git clone --recursive https://github.com/thewhiteh4t/pwnedOrNot /opt/Tools/"Sniffing & Spoofing"/pwnedornot
+git clone --recursive https://github.com/Curioo/emailpyspam /opt/Tools/"Sniffing & Spoofing"/emailpyspam
+git clone --recursive https://github.com/mishakorzik/Gmail-Hack /opt/Tools/"Sniffing & Spoofing"/gmail-hack
+git clone --recursive https://github.com/mishakorzik/Email-Spammer /opt/Tools/"Sniffing & Spoofing"/email-spammer
+mkdir /opt/Tools/"Web Attack"
+git clone --recursive https://github.com/mishakorzik/AdminHack /opt/Tools/"Web Attack"/adminhack
+git clone --recursive https://github.com/ebrandel/takeover /opt/Tools/"Web Attack"/takeover
+git clone --recursive https://github.com/UltimateHackers/Blazy /opt/Tools/"Web Attack"/blazy
+git clone --recursive https://github.com/sqlmapproject/sqlmap /opt/Tools/"Web Attack"/sqlmap
+git clone --recursive https://github.com/websploit/websploit /opt/Tools/"Web Attack"/websploit
+git clone --recursive https://github.com/LOoLzeC/SH33LL /opt/Tools/"Web Attack"/sh33ll
+git clone --recursive https://github.com/s0md3v/sqlmate /opt/Tools/"Web Attack"/sqlmate
+git clone --recursive https://github.com/mishakorzik/py-ddoser /opt/Tools/"Web Attack"/py-ddoser
+git clone --recursive https://github.com/mishakorzik/Ultra-DDos /opt/Tools/"Web Attack"/ultra-ddos
+git clone --recursive https://github.com/urbanadventurer/WhatWeb /opt/Tools/"Web Attack"/whatweb
+git clone --recursive https://github.com/xmendez/wfuzz /opt/Tools/"Web Attack"/wfuzz
+mkdir /opt/Tools/"Cam Hacking"
+git clone --recursive https://github.com/AngelSecurityTeam/Cam-Hackers /opt/Tools/"Cam Hacking"/cam-hackers
+git clone --recursive https://github.com/noob-hackers/grabcam /opt/Tools/"Cam Hacking"/grabcam
+git clone --recursive https://github.com/Devil-Tigers/CamHack /opt/Tools/"Cam Hacking"/camhack
+mkdir /opt/Tools/RATs
+git clone --recursive https://github.com/knassar702/pyshell /opt/Tools/RATs/pyshell
+git clone --recursive https://github.com/kinghacker0/WishFish /opt/Tools/RATs/wishfish
+mkdir /opt/Tools/"SQL Injection"
+git clone --recursive https://github.com/UndeadSec/Debinject /opt/Tools/"SQL Injection"/debinject
+git clone --recursive https://github.com/Terror696/Vitus2.0 /opt/Tools/"SQL Injection"/vitus2.0
+git clone --recursive https://github.com/mishakorzik/Infect /opt/Tools/"SQL Injection"/infect
+mkdir /opt/Tools/"Social Media"
+git clone --recursive https://github.com/evildevill/instahack /opt/Tools/"Social Media"/instahack
+git clone --recursive https://github.com/IAmBlackHacker/Facebook-BruteForce /opt/Tools/"Social Media"/facebook-bruteforce
+git clone --recursive https://github.com/sherlock-project/sherlock /opt/Tools/"Social Media"/sherlock
+git clone --recursive https://github.com/ALBINPRAVEEN/finduser /opt/Tools/"Social Media"/finduser
+git clone --recursive https://github.com/mishakorzik/UserFinder /opt/Tools/"Social Media"/userfinder
+mkdir /opt/Tools/"SMS"
+git clone --recursive https://github.com/3UMOBKA/SMS-Bomber-300-Free /opt/Tools/"SMS"/sms-300
+git clone --recursive https://github.com/8hakan8/AresBomb /opt/Tools/"SMS"/aresbomb
+git clone --recursive https://github.com/HACK3RY2J/Anon-SMS /opt/Tools/"SMS"/anon-sms
+git clone --recursive https://github.com/FSystem88/spymer /opt/Tools/"SMS"/spymer
+git clone --recursive https://github.com/TheSpeedX/TBomb /opt/Tools/"SMS"/tbomb
+git clone --recursive https://github.com/Edwardboytv/duplo-bomber /opt/Tools/"SMS"/duplo-bomber
+git clone --recursive https://github.com/Hackeralok119/Anonymoussms /opt/Tools/"SMS"/anonymoussms
+mkdir /opt/Tools/"Vulnerability Analysis"
+git clone --recursive https://github.com/floriankunushevci/rang3r /opt/Tools/"Vulnerability Analysis"/rang3r
+git clone --recursive https://github.com/TechnicalMujeeb/TM-scanner /opt/Tools/"Vulnerability Analysis"/tm-scanner
+git clone --recursive https://github.com/Gameye98/AstraNmap /opt/Tools/"Vulnerability Analysis"/astranmap
+mkdir /opt/Tools/"DarkSearch"
+git clone --recursive https://github.com/josh0xA/darkdump /opt/Tools/"DarkSearch"/darkdump
+mkdir /opt/Tools/"Phishing"
+git clone --recursive https://github.com/htr-tech/zphisher /opt/Tools/"Phishing"/zphisher
+git clone --recursive https://github.com/AbirHasan2005/ShellPhish /opt/Tools/"Phishing"/shellphish
+git clone --recursive https://github.com/hangetzzu/saycheese /opt/Tools/"Phishing"/saycheese
+git clone --recursive https://github.com/mishakorzik/Mask-Phish.Termux /opt/Tools/"Phishing"/mask-phish
+git clone --recursive https://github.com/thewhiteh4t/seeker /opt/Tools/"Phishing"/seeker
+git clone --recursive https://github.com/DeepSociety/AIOPhish /opt/Tools/"Phishing"/aiophish
+git clone --recursive https://github.com/Viralmaniar/I-See-You /opt/Tools/"Phishing"/iseeyou
+git clone --recursive https://github.com/khairil0593/HiddenEye-Legacy /opt/Tools/"Phishing"/hiddeneye-legacy
+git clone --recursive https://github.com/8L4NK/blackeye /opt/Tools/"Phishing"/blackeye
+git clone --recursive https://github.com/Nishant2009/NPhish /opt/Tools/"Phishing"/nphish
+mkdir /opt/Tools/"Hash Cracking"
+git clone --recursive https://github.com/ciku370/hasher /opt/Tools/"Hash Cracking"/hasher
+git clone --recursive https://github.com/thamahaxor/hasherdoid /opt/Tools/"Hash Cracking"/hasherdroid
+git clone --recursive https://github.com/ciku370/hash-generator /opt/Tools/"Hash Cracking"/hash-generator
+git clone --recursive https://github.com/s0md3v/Hash-Buster /opt/Tools/"Hash Cracking"/hash-buster
+mkdir /opt/Tools/"Wordlists"
+git clone --recursive https://github.com/Keshav2136/wlcreator /opt/Tools/"Wordlists"/wlcreator
+git clone --recursive https://github.com/UndeadSec/GoblinWordGenerator /opt/Tools/"Wordlists"/goblin
+git clone --recursive https://github.com/Viralmaniar/SMWYG-Show-Me-What-You-Got /opt/Tools/"Wordlists"/smyg
+mkdir /opt/Tools/"XSS"
+git clone --recursive https://github.com/menkrep1337/XSSCon /opt/Tools/"XSS"/xsscon
+git clone --recursive https://github.com/Ekultek/XanXSS /opt/Tools/"XSS"/xanxss
+git clone --recursive https://github.com/s0md3v/XSStrike /opt/Tools/"XSS"/xsstrike
+mkdir /opt/Tools/"Other Stuff"
+git clone --recursive https://github.com/deadbits/Intersect-2.5 /opt/Tools/"Other Stuff"/intersect
+git clone --recursive https://github.com/mishakorzik/Free-Proxy /opt/Tools/"Other Stuff"/free-proxy
