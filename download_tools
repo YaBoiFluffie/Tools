@@ -66,7 +66,7 @@ mkdir "Social Media" && cd "Social Media"
 git clone --recursive https://github.com/evildevill/instahack
 git clone --recursive https://github.com/IAmBlackHacker/Facebook-BruteForce
 git clone --recursive https://github.com/sherlock-project/sherlock
-git clone --recursive https://github.com/xHak9x/finduser
+git clone --recursive https://github.com/ALBINPRAVEEN/finduser
 git clone --recursive https://github.com/mishakorzik/UserFinder
 cd /opt/Tools
 mkdir "SMS" && cd "SMS"
