@@ -54,7 +54,7 @@ git clone --recursive https://github.com/noob-hackers/grabcam
 git clone --recursive https://github.com/Devil-Tigers/CamHack
 cd /opt/Tools
 mkdir "RATs" && cd "RATs"
-git clone --recursive https://github.com/knassar702/pyshell"
+git clone --recursive https://github.com/knassar702/pyshell
 git clone --recursive https://github.com/kinghacker0/WishFish
 cd /opt/Tools
 mkdir "SQL Injection" && cd "SQL Injection"
