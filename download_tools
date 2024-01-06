@@ -37,7 +37,7 @@ git clone --recursive https://github.com/mishakorzik/Email-Spammer
 cd /opt/Tools
 mkdir "Web Attack" && cd "Web Attack"
 git clone --recursive https://github.com/mishakorzik/AdminHack
-git clone --recursive https://github.com/m4ll0k/takeover
+git clone --recursive https://github.com/ebrandel/takeover
 git clone --recursive https://github.com/UltimateHackers/Blazy
 git clone --recursive https://github.com/sqlmapproject/sqlmap
 git clone --recursive https://github.com/websploit/websploit
