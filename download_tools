@@ -71,12 +71,12 @@ git clone --recursive https://github.com/mishakorzik/UserFinder
 cd /opt/Tools
 mkdir "SMS" && cd "SMS"
 git clone --recursive https://github.com/3UMOBKA/SMS-Bomber-300-Free
-git clone --recursive https://github.com/MaksPV/AresBomb
+git clone --recursive https://github.com/8hakan8/AresBomb
 git clone --recursive https://github.com/HACK3RY2J/Anon-SMS
 git clone --recursive https://github.com/FSystem88/spymer
 git clone --recursive https://github.com/TheSpeedX/TBomb
-git clone --recursive https://github.com/batiscuff/duplo-bomber
-git clone --recursive https://github.com/mishakorzik/anonymousSMS
+git clone --recursive https://github.com/Edwardboytv/duplo-bomber
+git clone --recursive https://github.com/Hackeralok119/Anonymoussms
 cd /opt/Tools
 mkdir "Vulnerability Analysis" && cd "Vulnerability Analysis"
 git clone --recursive https://github.com/floriankunushevci/rang3r
