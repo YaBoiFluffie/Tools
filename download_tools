@@ -94,8 +94,8 @@ git clone --recursive https://github.com/mishakorzik/Mask-Phish.Termux
 git clone --recursive https://github.com/thewhiteh4t/seeker
 git clone --recursive https://github.com/DeepSociety/AIOPhish
 git clone --recursive https://github.com/Viralmaniar/I-See-You.git
-git clone --recursive https://github.com/DarkSecDevelopers/HiddenEye-Legacy
-git clone --recursive https://github.com/An0nUD4Y/blackeye
+git clone --recursive https://github.com/khairil0593/HiddenEye-Legacy
+git clone --recursive https://github.com/8L4NK/blackeye
 git clone --recursive https://github.com/Nishant2009/NPhish
 cd /opt/Tools
 mkdir "Hash Cracking" && cd "Hash Cracking"
